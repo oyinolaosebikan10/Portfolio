@@ -1,0 +1,291 @@
+ * {
+      margin: 0;
+      padding: 0;
+
+     }
+
+     body {
+     background-color: #F5F7FA;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+     }
+     
+     .navbar {
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      height: 70px;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-image: linear-gradient(to right, #6366F1, rgb(7, 32, 109));
+      color: white;
+      /* background-color: #6366F1; */
+
+     }
+
+      .nav1 {
+        margin-top: 5px;
+        margin-left: 25px;
+        
+      }
+
+      .nav2 {
+       display: flex;
+       align-items: center;
+
+      }
+
+      .logo {
+       font-size: 30px;
+       
+
+      }
+
+      .home, .about, .services {
+       margin-right: 60px;
+       font-size: 22px;
+       cursor: pointer;
+       
+      
+      } 
+        
+      i {
+       font-size: 50px;
+
+      }
+
+      .main {
+        background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       width: 100%;
+       height: 1200px;
+
+      }
+
+      .pic {
+       margin-left: 150px; 
+            
+      }
+
+      .mypic {
+       width: 600px;
+       margin-top: 200px;
+
+      }
+
+      .aboutme {
+       margin-right: 180px;
+       margin-left: 25px;
+       text-align: center;
+       line-height: 40px;
+       font-size: 20px;
+
+      }
+
+      .myjourney {
+       text-align: center;
+       margin-bottom: 40px;
+       font-size: 70px;
+       color: rgb(89, 88, 88);
+
+      }
+
+      .intro {
+       width: 690px;
+
+      }
+
+      hr {
+       margin-top: 100px;
+       
+      }
+
+      .projectsintro {
+        text-align: center;
+        margin-top: 40px;
+
+      }
+
+      .projects {
+       font-size: 60px;
+
+      }
+
+      .pp {
+       line-height: 50px;
+       font-size: 20px;
+
+      }
+
+      .projectsh1 {
+        font-size: 40px;
+        line-height: 45px;
+
+      }
+
+      .projectsh2 {
+        font-size: 40px;
+        line-height: 45px;
+
+      }
+      
+      .projectsh3 {
+        font-size: 40px;
+        line-height: 45px;
+
+      } 
+       
+       .projectsh4 {
+        font-size: 40px;
+        line-height: 45px;
+
+       }
+
+      .projectsp {
+        font-size: 20px;
+        margin-top: 30px;
+
+      }
+
+      .imganddescription1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+        height: 500px;
+        background-color: white;
+
+       }
+
+       .chatgptdesc {
+        text-align: center;
+        width: 500px;
+        margin-left: 100px;
+        line-height: 30px;
+        
+
+       }
+
+       .chatgptscr {
+        width: 720px;
+        margin-right: 100px;
+
+       }
+
+        .imganddescription2 {
+         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+        vertical-align: middle;
+         background-color: white;
+         height: 800px;
+
+        }
+
+        .recipescr {
+          width: 720px;
+        margin-left: 100px;
+
+        }
+
+        .recipedesc {
+         text-align: center;
+        width: 500px;
+        margin-right: 100px;
+        line-height: 30px;
+
+        }
+
+       .imganddescription3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+        vertical-align: middle;
+         background-color: white;
+         height: 500px;
+
+       }
+       
+       .youtubedesc {
+        text-align: center;
+        width: 500px;
+        margin-left: 100px;
+        line-height: 30px;
+       }
+
+        .youtubescr {
+        width: 720px;
+        margin-right: 100px;
+
+       }
+
+       .imganddescription4 {
+         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+        vertical-align: middle; 
+         background-color: white;
+         height: 500px;
+
+       }
+
+       .flexboxscr {
+          width: 720px;
+        margin-left: 100px;
+
+       }
+
+       .flexboxdesc {
+         text-align: center;
+         width: 500px;
+         margin-right: 100px;
+         line-height: 30px;
+
+       }
+
+       .footersection {
+        background-color: rgb(83, 83, 83);
+        color: white;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         height: 250px;
+         margin-top: 100px;
+         
+
+       }
+
+       .footer1 {
+        margin-left: 30px;
+        
+
+       }
+
+       .footerp {
+         margin-top: 20px;
+
+       }
+
+       button {
+        margin-top: 30px;
+        padding: 12px 25px;
+        background-color: #6366F1;
+        color: white;
+        font-size: 18px;
+        border-radius: 5px;
+
+
+       }
+
+       .footer2 {
+        line-height: 40px;
+
+       }
+
+       
