@@ -20,13 +20,16 @@
       right: 0;
       background-image: linear-gradient(to right, #6366F1, rgb(7, 32, 109));
       color: white;
-      /* background-color: #6366F1; */
+      padding: 40px;
 
      }
 
       .nav1 {
-        margin-top: 5px;
+        display: ;
+        margin-top: px;
         margin-left: 25px;
+        margin-right: 100px;
+        font-size: 70px;
         
       }
 
@@ -37,75 +40,104 @@
       }
 
       .logo {
-       font-size: 30px;
+       font-size: 20px;
+       white-space: nowrap;
        
 
       }
 
       .home, .about, .services {
        margin-right: 60px;
-       font-size: 22px;
+       font-size: 36px;
        cursor: pointer;
+       transition: 0.4s;
        
-      
-      } 
+       }
+       
+       .home:hover {
+        color: #74b9ff;
+
+       }
+
+       .about:hover {
+        color: #74b9ff;
+
+       }
+
+       .services:hover {
+        color: #74b9ff;
+
+       }
         
       i {
-       font-size: 50px;
+       font-size: 70px;
 
       }
 
       .main {
-        background-color: white;
-       display: flex;
-       align-items: center;
-       justify-content: space-around;
-       width: 100%;
-       height: 1200px;
-
-      }
+        background-color: #3d3d3d;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        padding: 80px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        
+       }
 
       .pic {
-       margin-left: 150px; 
+       
+       margin-bottom: 70px;
+       margin-right: 90px;
             
       }
 
       .mypic {
        width: 600px;
        margin-top: 200px;
+       border-radius: 30px;
 
       }
 
       .aboutme {
-       margin-right: 180px;
-       margin-left: 25px;
+       margin-right: 300px;
+       margin-left: px;
        text-align: center;
        line-height: 40px;
-       font-size: 20px;
+       font-size: 28px;
+       flex: 1;
+       max-width: 1300px;
 
       }
 
-      .myjourney {
+      .webdev {
+       font-size: 120px;
+       color: white;
+       line-height: 140px;
+
+      }
+
+      .personaloverview {
        text-align: center;
        margin-bottom: 40px;
-       font-size: 70px;
-       color: rgb(89, 88, 88);
+       font-size: 65px;
+       line-height: 60px;
+       color: #ffff;
 
       }
 
       .intro {
-       width: 690px;
+       /* width: 690px; */
+       color: #dddddd;
 
       }
 
-      hr {
-       margin-top: 100px;
-       
-      }
 
       .projectsintro {
         text-align: center;
-        margin-top: 40px;
+        margin-top: 70px;
 
       }
 
@@ -145,7 +177,7 @@
        }
 
       .projectsp {
-        font-size: 20px;
+        font-size: 28px;
         margin-top: 30px;
 
       }
@@ -172,6 +204,7 @@
        .chatgptscr {
         width: 720px;
         margin-right: 100px;
+        box-shadow: 0px 2px 3px 4px rgba(0,0,0,0.1);
 
        }
 
@@ -189,6 +222,7 @@
         .recipescr {
           width: 720px;
         margin-left: 100px;
+        box-shadow: 0px 2px 3px 4px rgba(0,0,0,0.1);
 
         }
 
@@ -221,6 +255,7 @@
         .youtubescr {
         width: 720px;
         margin-right: 100px;
+        box-shadow: 0px 2px 3px 4px rgba(0,0,0,0.1);
 
        }
 
@@ -238,6 +273,7 @@
        .flexboxscr {
           width: 720px;
         margin-left: 100px;
+        box-shadow: 0px 2px 3px 4px rgba(0,0,0,0.1);
 
        }
 
@@ -251,24 +287,32 @@
 
        .footersection {
         background-color: rgb(83, 83, 83);
-        color: white;
-         display: flex;
-         justify-content: space-around;
-         align-items: center;
-         height: 250px;
-         margin-top: 100px;
+        color: #dddddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 4rem;
+        margin-top: 100px;
          
 
        }
 
        .footer1 {
-        margin-left: 30px;
+        margin-left: 20px;
+        vertical-align: middle;
         
+       }
+
+       .footerh {
+        color: #ffff;
+        font-size: 35px;
 
        }
 
        .footerp {
          margin-top: 20px;
+         width: 900px;
+         font-size: 28px;
 
        }
 
@@ -277,14 +321,24 @@
         padding: 12px 25px;
         background-color: #6366F1;
         color: white;
-        font-size: 18px;
-        border-radius: 5px;
+        font-size: 28px;
+        border-radius: 9px;
+        transition: 0.4s;
+        cursor: pointer;
 
 
        }
 
+       button:hover {
+       background-color: #5153ed;
+       
+
+       }
+
        .footer2 {
-        line-height: 40px;
+        line-height: 70px;
+        font-size: 28px;
+        vertical-align: middle;
 
        }
 
