@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F5F7FA;
+  background-color: #f5f3ff;
   width: 100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   overflow-x: hidden;
@@ -63,7 +63,8 @@ i {
 }
 
 .aboutsect {
-  background-color: #3d3d3d;
+  /* background-color: #3d3d3d; */
+  background-color: #1A1C2E;
   display: flex;
   justify-content: center;
   padding: 4rem 5%;
@@ -88,7 +89,8 @@ i {
   min-width: 300px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  
+  /* align-items: center; */
 }
 
 .mypic {
@@ -97,6 +99,9 @@ i {
   height: auto;
   border-radius: 20px;
   object-fit: cover;
+  /* box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3), 0 0 20px rgba(99, 102, 241, 0.1); */
+  animation: 0.4s ease-in-out infinite;
+
 }
 
 .aboutme {
@@ -110,100 +115,125 @@ i {
 }
 
 .webdev {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(1rem, 3vw, 3rem);
   color: white;
   line-height: 1.1;
   margin-bottom: 1rem;
+  margin-top: 20px;
 }
 
 .personaloverview {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin-bottom: 20px;
   color: #ffff;
 }
 
 .intro {
   line-height: 1.6;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   color: #dddddd;
   max-width: 600px; 
 }
 
+/* --- THE NEW BLENDED PROJECTS SECTION --- */
+
 .projectsintro {
   text-align: center;
-  padding: 5rem 10% 3rem;
+  padding: 6rem 10% 3rem;
+  color: #1e1b4b;
+  /* background-color: #f1f5f9; Cool slate gray background */
 }
 
 .projects {
   font-size: 3rem;
+   color: #1e1b4b;
+  /* color: #1e293b; */
+  
 }
 
 .pp {
   font-size: 1.2rem;
-  color: #555;
+   color: #1e1b4b;;
+  margin-top: 10px;
 }
 
-.imganddescription1, .imganddescription2, .imganddescription3, .imganddescription4 {
+.imganddescription1, .imganddescription2, .imganddescription3, .imganddescription4, .imganddescription5, .imganddescription6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 4rem 10%;
-  gap: 40px;
-  background-color: white;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #e5e7eb;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  gap: 50px;
+  background-color: rgba(255, 255, 255, 0.8); /*Glass effect*/
+  margin: 0 auto 40px;
+  max-width: 1100px;
+  border-radius: 30px;
+  border: 2px solid #e2e8f0; 
+  box-shadow: 0 10px rgba(0,0,0,0.03);
+  transition: all 0.3s ease;
+}
+
+/* Adds a glow and border color on hover */
+.imganddescription1:hover, .imganddescription2:hover, .imganddescription3:hover, .imganddescription4:hover {
+  border-color: #6366F1;
+  background-color: #ffffff;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(99, 102, 241, 0.1);
 }
 
 .imganddescription2, .imganddescription4 {
   flex-direction: row-reverse;
-  background-color: #f9fafb;
 }
 
-.chatgptdesc, .recipedesc, .youtubedesc, .flexboxdesc {
+.chatgptdesc, .recipedesc, .youtubedesc, .flexboxdesc, .faqdesc, .careerbotdesc {
   flex: 1;
   min-width: 300px;
   max-width: 500px;
 }
 
-.projectsh1, .projectsh2, .projectsh3, .projectsh4 {
+.projectsh1, .projectsh2, .projectsh3, .projectsh4, .projectsh5, .projectsh6 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #111;
+  color: #1e293b;
 }
 
 .projectsp {
   font-size: 1.05rem;
-  line-height: 1.5;
-  color: #374151;
+  line-height: 1.6;
+  color: #475569;
 }
 
-.chatgptscr, .recipescr, .youtubescr, .flexboxscr {
+.chatgptscr, .recipescr, .youtubescr, .flexboxscr, .faqscr, .careerbotscr {
   width: 100%;
   max-width: 450px;
-  border-radius: 10px;
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease;
+  border-radius: 15px;
+  box-shadow: 0px 12px 24px rgba(0,0,0,0.1);
 }
 
-.chatgptscr:hover, .recipescr:hover, .youtubescr:hover, .flexboxscr:hover {
-  transform: translateY(-5px);
-}
+/* --- FOOTER --- */
 
 .footer {
   width: 100%;
 }
 
 .footersection {
-  background-color: #333;
+  /* background-color: #333;
   color: #dddddd;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 4rem 10%;
-  margin-top: 3rem;
+  margin-top: 3rem; */
+  background-color: #1A1C2E; /* Matches the new About Section color */
+  color: #cbd5e1; /* Light slate for general text */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 10%;
+  margin-top: 0; /* Removed margin to let it feel like a solid block if desired */
+  border-top: 1px solid rgba(99, 102, 241, 0.2);
   gap: 40px;
 }
 
@@ -214,18 +244,26 @@ i {
 }
 
 .footerh {
-  color: #ffff;
-  font-size: 2rem;
+  /* color: #ffff;
+  font-size: 2rem; */
+  color: #ffffff; /* Pure white for the "Let's Discuss" heading */
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .footerp {
-  margin-top: 15px;
+  /* margin-top: 15px;
   max-width: 500px;
+  font-size: 1.1rem; */
+  margin-top: 15px;
+  max-width: 450px;
   font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 button {
-  margin-top: 25px;
+  /* margin-top: 25px;
   padding: 12px 30px;
   background-color: #6366F1;
   color: white;
@@ -233,23 +271,89 @@ button {
   font-size: 1rem;
   border-radius: 6px;
   cursor: pointer;
+  font-weight: bold; */
+  margin-top: 25px;
+  padding: 14px 35px;
+  background-color: #6366F1;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
   font-weight: bold;
   transition: 0.3s;
-}
-
-button:hover {
-  background-color: #5153ed;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
 }
 
 .footer2 {
-  flex: 1;
+  /* flex: 1;
   min-width: 300px;
   font-size: 1rem;
   line-height: 2.2;
+  text-align: left; */
+  flex: 1;
+  min-width: 300px;
+  font-size: 1.05rem;
+  line-height: 2.4;
   text-align: left;
 }
 
 .footer2 p span {
-  color: #6366F1;
+  /* color: #6366F1;
+  font-weight: bold; */
+  color: #6366F1; /* Indigo for labels like "Email:" */
   font-weight: bold;
+  margin-right: 5px;
+}
+
+.footer2 p {
+    color: #cbd5e1;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .home, .about, .services {
+    margin-left: 15px;
+    font-size: 1rem;
+  }
+
+  .webdev {
+    font-size: 2.5rem;
+  }
+
+  .personaloverview {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .projects {
+    font-size: 2.2rem;
+  }
+
+  .imganddescription1, .imganddescription2, .imganddescription3, .imganddescription4 {
+    margin: 10px 15px 30px;
+    padding: 2.5rem 5%;
+    border-radius: 20px;
+  }
+
+  .imganddescription2, .imganddescription4 {
+    flex-direction: column;
+  }
+
+  .footersection {
+    padding: 3rem 20px;
+    text-align: center;
+  }
+
+  .footer1, .footer2 {
+    text-align: center;
+  }
 }
