@@ -1,151 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OYINX Works</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <div class="navbar">
-      <div class="nav1">
-       <p class="logo"><i>OYINX</i> WORKS</p>
 
-      </div>
+<div class="cursor-glow"></div>
 
-      <div class="nav2">
-        <p class="home">Home</p>
-        <p class="about">About</p>
-        <p class="services">Services</p>
+<nav class="navbar">
+  <h1 class="logo">OYINX <span>Works</span></h1>
 
-      </div>
-      </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#footer">Contact</a>
+  </div>
 
-  <div class="main">
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
 
-    <div class="aboutsect">
-      <div class="about-section">
-         <div class="pic">
-            <img class="mypic" src="./mypicc.png" alt="">
-          </div>
-    
-          <div class="aboutme">
-            <h1 class="webdev">WEB DEVELOPER</h1>
-           <h2 class="personaloverview">Personal Overview</h2>
-            <p class="intro">Hi, I’m Oyin, a frontend web developer focused on building clean, responsive web interfaces using HTML and CSS, with growing experience in JavaScript.
-            I enjoy turning designs into functional, user-friendly pages and have worked on several projects, including layout builds and UI clones that emphasize structure, spacing, and visual clarity.
-            I’m continuing to grow my skills and am open to opportunities to collaborate and contribute to real-world projects.</p> 
-    
-          </div>
-      </div>
-   
+<section class="hero fade">
+  <div class="hero-content">
+    <img src="./mypicc.png" class="hero-img">
+
+    <div class="hero-text">
+      <h2>Frontend Web Developer</h2>
+      <p>I create modern, responsive and clean user interfaces.</p>
     </div>
-  
-        <div class="projectsintro">
-  
-          <h1 class="projects">PROJECTS</h1>
-           <p class="pp">Here's a look at some of the projects i've done while learning web development using HTML and CSS:</p>
-  
-        </div>
-  
-        <div class="imganddescription1">
-          <div class="chatgptdesc">
-            <h1 class="projectsh1">ChatGPT site clone</h1>
-           <p class="projectsp">A static clone of the ChatGPT landing page built with HTML and CSS. I focused on matching the layout and styling.</p>
-  
-          </div>
-           <div class="chatgptimg">
-            <a href="https://oyingpt-project.vercel.app/"><img class="chatgptscr" src="./chatgptscreenshot.png" alt=""></a>
-  
-           </div>
-  
-        </div>
-  
-        <div class="imganddescription2">
-           <div class="recipeimg">
-             <a href="https://recipe-page-six-khaki.vercel.app/"><img class="recipescr" src="./recipeimg.png" alt=""></a>
-  
-           </div>
-  
-           <div class="recipedesc">
-             <h1 class="projectsh2">Recipe Page</h1>
-             <p class="projectsp">This was a recipe page project from Front-end Mentor. It focuses mainly on HTML and CSS.</p>
-           </div>
-        </div>
-  
-        <div class="imganddescription3">
-          <div class="youtubedesc">
-           <h1 class="projectsh3">YouTube Clone | HTML & CSS</h1>
-           <p class="projectsp"> A static clone focusing on layout and styling (nav bar, video grid). Not complete, but showcases container-based structure and styling.</p>
-          </div>
-  
-          <div class="youtubeimg">
-           <a href="https://youtube-clone-project-ochre.vercel.app/"><img class="youtubescr" src="./youtubescreenshot.png" alt=""></a>
-  
-          </div>
-        </div>
-  
-        <div class="imganddescription4">
-         <div class="flexboximg">
-            <a href="https://flexbox-photogallery.vercel.app/"><img class="flexboxscr" src="./flexboximg.png" alt=""></a>
-         </div>
-  
-        <div class="flexboxdesc">
-            <h1 class="projectsh4">Flexbox Exercise</h1>
-            <p class="projectsp">This was also a flexbox exercise from Freecodecamp. It mainly emphasizes HTML and CSS </p>
-  
-         </div>
-        </div>
+  </div>
 
-        <div class="imganddescription5">
-          <div class="faqdesc">
-           <h1 class="projectsh5">Faq Accordion | HTML & Tailwind CSS</h1>
-           <p class="projectsp">A faq accordion challenge from Front-end-mentor with the use of HTML and Tailwind CSS</p>
-          </div>
-  
-          <div class="faqimg">
-           <a href="https://faq-accordion-project-pi.vercel.app/"><img class="faqscr" src="./Faqpic.png" alt=""></a>
-  
-          </div>
-        </div>
+  <div class="scroll-indicator">
+    <span></span>
+  </div>
+</section>
 
-        <div class="imganddescription6">
-         <div class="careerbotimg">
-            <a href="https://career-guide-bot.vercel.app/"><img class="careerbotscr" src="./Careerbotpic.png" alt=""></a>
-         </div>
-  
-        <div class="careerbotdesc">
-            <h1 class="projectsh6">Career Guidance Bot</h1>
-            <p class="projectsp">An interactive career guidance chatbot designed to help graduates explore career paths, job roles, and professional requirements related to their academic disciplines.</p>
-  
-         </div>
-        </div>
+<div class="section-separator fade"></div>
 
-        <div class="footer">
+<section class="projects" id="projects">
 
-          <div class="footersection">
-           <div class="footer1">
-            <h2 class="footerh">Let's Discuss Further</h2>
-            <p class="footerp">As I continue my learning journey, I'm open to conversations, feedback and collaborative projects.</p>
-            <button>Let's discuss</button>
-           </div>
-   
-           <div class="footer2">
-             <p class="footeremail">Email: <span class="email">oyinolaosebikan10@gmail.com</span></p>
-             <p class="footercontact">Contact: <span class="contact">+2347038041499</span></p>
-             <p class="footeraddress">Address: <span class="address">Oba Eko Omoda Street, Ilorin, Kwara State. Nigeria.</span></p> 
-   
-           </div>
-   
-          </div>
+  <div class="projects-banner fade">
+    <p>💼 My Work</p>
+  </div>
 
-        </div>
+  <!-- Removed horizontal lines here -->
+
+  <!-- PROJECT CARDS -->
+  <div class="project-card fade">
+    <div class="project-img">
+      <a href="https://oyingpt-project.vercel.app/"><img class="chatgptscr" src="./chatgptscreenshot.png" alt=""></a>
+    </div>
+    <div class="project-text">
+      <h3>ChatGPT Clone</h3>
+      <p>Landing page clone focused on layout precision.</p>
+    </div>
+  </div>
+
+  <div class="project-card reverse fade">
+    <div class="project-img">
+      <a href="https://recipe-page-six-khaki.vercel.app/"><img class="recipescr" src="./recipeimg.png" alt=""></a>
+    </div>
+    <div class="project-text">
+      <h3>Recipe Page</h3>
+      <p>Responsive layout focused design.</p>
+    </div>
+  </div>
+
+  <div class="project-card fade">
+    <div class="project-img">
+      <a href="https://youtube-clone-project-ochre.vercel.app/"><img class="youtubescr" src="./youtubescreenshot.png" alt=""></a>
+    </div>
+    <div class="project-text">
+      <h3>YouTube Clone</h3>
+      <p>Video grid layout clone.</p>
+    </div>
+  </div>
+
+  <div class="project-card reverse fade">
+    <div class="project-img">
+      <a href="https://flexbox-photogallery.vercel.app/"><img class="flexboxscr" src="./flexboximg.png" alt=""></a>
+    </div>
+    <div class="project-text">
+      <h3>Flexbox Gallery</h3>
+      <p>Flexbox layout project.</p>
+    </div>
+  </div>
+
+  <div class="project-card fade">
+    <div class="project-img">
+      <a href="https://faq-accordion-project-pi.vercel.app/"><img class="faqscr" src="./Faqpic.png" alt=""></a>
+    </div>
+    <div class="project-text">
+      <h3>FAQ Accordion</h3>
+      <p>Interactive UI component.</p>
+    </div>
+  </div>
+
+  <div class="project-card reverse fade">
+    <div class="project-img">
+      <a href="https://career-guide-bot.vercel.app/"><img class="careerbotscr" src="./Careerbotpic.png" alt=""></a>
+    </div>
+    <div class="project-text">
+      <h3>Career Bot</h3>
+      <p>Career chatbot concept.</p>
+    </div>
+  </div>
+
+  <div class="project-card fade">
+    <div class="project-img">
+      <a href="https://beauty-care-project.vercel.app/"><img class="beautyscr" src="./AI_Beauty_Web_img.png" alt=""></a>
+    </div>
+    <div class="project-text">
+      <h3>OYINX Beauty Intelligence</h3>
+      <p>A dynamic front-end beauty recommendation app with upcoming AI-powered features.</p>
+    </div>
+  </div>
+
+</section>
+
+<footer class="footer" id="footer">
+  <div class="footer-container fade">
+
+    <div class="footer-top">
+      <h2>Let’s Build Something</h2>
+      <p>Open to collaborations and projects.</p>
+      <button class="btn">Contact Me</button>
+    </div>
+
+    <div class="footer-socials">
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <div class="footer-location">
+      <p>📍 Nigeria</p>
+    </div>
 
   </div>
-  
+</footer>
 
+<script>
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+hamburger.onclick = () => navLinks.classList.toggle('active');
+
+const glow = document.querySelector('.cursor-glow');
+document.addEventListener('mousemove', e=>{
+  glow.style.left = e.clientX + 'px';
+  glow.style.top = e.clientY + 'px';
+});
+
+const observer = new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting) entry.target.classList.add('show');
+  });
+},{threshold:0.2});
+document.querySelectorAll('.fade').forEach(el=>observer.observe(el));
+
+const footer = document.querySelector('#footer');
+const footerObserver = new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      footer.classList.add('show-footer');
+    } else {
+      footer.classList.remove('show-footer');
+    }
+  });
+});
+footerObserver.observe(footer);
+
+const scrollIndicator = document.querySelector('.scroll-indicator');
+window.addEventListener('scroll', () => {
+  scrollIndicator.style.opacity = window.scrollY > 100 ? '0' : '1';
+});
+</script>
 
 </body>
 </html>
