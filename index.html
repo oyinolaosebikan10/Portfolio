@@ -1,188 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>OYINX Works</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
 
 <div class="cursor-glow"></div>
 
+<!-- NAVBAR -->
+
 <nav class="navbar">
-  <h1 class="logo">OYINX <span>Works</span></h1>
 
-  <div class="nav-links">
-    <a href="#">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#footer">Contact</a>
-  </div>
+<h1 class="logo">
+OYINX<span>Works</span>
+</h1>
 
-  <div class="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
+<div class="nav-links">
+
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#featured-work">Projects</a>
+<a href="#footer">Contact</a>
+
+</div>
+
+<div class="hamburger">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
 </nav>
 
+<!-- HERO -->
+
 <section class="hero fade">
-  <div class="hero-content">
-    <img src="./mypicc.png" class="hero-img">
 
-    <div class="hero-text">
-      <h2>Frontend Web Developer</h2>
-      <p>I create modern, responsive and clean user interfaces.</p>
-    </div>
-  </div>
+<div class="hero-content">
 
-  <div class="scroll-indicator">
-    <span></span>
-  </div>
-</section>
+<img src="./mypicc.png" class="hero-img">
 
-<div class="section-separator fade"></div>
+<div class="hero-text">
 
-<section class="projects" id="projects">
+<p class="intro-tag">
+Frontend Developer • Learning Full-Stack Development
+</p>
 
-  <div class="projects-banner fade">
-    <p>💼 My Work</p>
-  </div>
+<h2>
+I Build Modern Frontend Experiences
+</h2>
 
-  <!-- Removed horizontal lines here -->
+<p>
+Focused on responsive interfaces, clean design,
+interaction and continuous growth into full-stack development.
+</p>
 
-  <!-- PROJECT CARDS -->
-  <div class="project-card fade">
-    <div class="project-img">
-      <a href="https://oyingpt-project.vercel.app/"><img class="chatgptscr" src="./chatgptscreenshot.png" alt=""></a>
-    </div>
-    <div class="project-text">
-      <h3>ChatGPT Clone</h3>
-      <p>Landing page clone focused on layout precision.</p>
-    </div>
-  </div>
+<div class="hero-buttons">
 
-  <div class="project-card reverse fade">
-    <div class="project-img">
-      <a href="https://recipe-page-six-khaki.vercel.app/"><img class="recipescr" src="./recipeimg.png" alt=""></a>
-    </div>
-    <div class="project-text">
-      <h3>Recipe Page</h3>
-      <p>Responsive layout focused design.</p>
-    </div>
-  </div>
+<a href="projects.html" class="primary-btn">
+View Projects
+</a>
 
-  <div class="project-card fade">
-    <div class="project-img">
-      <a href="https://youtube-clone-project-ochre.vercel.app/"><img class="youtubescr" src="./youtubescreenshot.png" alt=""></a>
-    </div>
-    <div class="project-text">
-      <h3>YouTube Clone</h3>
-      <p>Video grid layout clone.</p>
-    </div>
-  </div>
+<a href="#about" class="secondary-btn">
+About Me
+</a>
 
-  <div class="project-card reverse fade">
-    <div class="project-img">
-      <a href="https://flexbox-photogallery.vercel.app/"><img class="flexboxscr" src="./flexboximg.png" alt=""></a>
-    </div>
-    <div class="project-text">
-      <h3>Flexbox Gallery</h3>
-      <p>Flexbox layout project.</p>
-    </div>
-  </div>
+</div>
 
-  <div class="project-card fade">
-    <div class="project-img">
-      <a href="https://faq-accordion-project-pi.vercel.app/"><img class="faqscr" src="./Faqpic.png" alt=""></a>
-    </div>
-    <div class="project-text">
-      <h3>FAQ Accordion</h3>
-      <p>Interactive UI component.</p>
-    </div>
-  </div>
+<div class="developer-note">
 
-  <div class="project-card reverse fade">
-    <div class="project-img">
-      <a href="https://career-guide-bot.vercel.app/"><img class="careerbotscr" src="./Careerbotpic.png" alt=""></a>
-    </div>
-    <div class="project-text">
-      <h3>Career Bot</h3>
-      <p>Career chatbot concept.</p>
-    </div>
-  </div>
+<p>
+Focused on building interfaces that combine simplicity,
+responsiveness and smooth interaction.
+</p>
 
-  <div class="project-card fade">
-    <div class="project-img">
-      <a href="https://beauty-care-project.vercel.app/"><img class="beautyscr" src="./AI_Beauty_Web_img.png" alt=""></a>
-    </div>
-    <div class="project-text">
-      <h3>OYINX Beauty Intelligence</h3>
-      <p>A dynamic front-end beauty recommendation app with upcoming AI-powered features.</p>
-    </div>
-  </div>
+</div>
+
+</div>
+
+</div>
+
+<div class="scroll-indicator">
+<span></span>
+</div>
 
 </section>
 
-<footer class="footer" id="footer">
-  <div class="footer-container fade">
+<!-- SEPARATOR -->
 
-    <div class="footer-top">
-      <h2>Let’s Build Something</h2>
-      <p>Open to collaborations and projects.</p>
-      <button class="btn" onclick="location.href='mailto:oyinolaosebikan11@gmail.com?subject=Contact from my website'">Contact Me</button>
-    </div>
+<div class="gradient-separator separator-one fade"></div>
 
-    <div class="footer-socials">
-      <a href="https://www.tiktok.com/@o.y.i.n.1234?_r=1&_t=ZS-95DHIdV9Cs9"><i class="fab fa-tiktok"></i></a>
-      <a href="https://www.instagram.com/o.y.i.n9?igsh=dWFuZmIxa2wzc3Rk"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100095424665998"><i class="fab fa-facebook"></i></a>
-    </div>
+<!-- ABOUT -->
 
-    <div class="footer-location">
-      <p>📍 Nigeria</p>
-    </div>
+<section class="about fade" id="about">
 
+<div class="section-heading">
+
+<p>About Me</p>
+
+<h2>
+Creating interfaces that feel smooth,
+modern and alive.
+</h2>
+
+</div>
+
+<div class="about-content">
+
+<p>
+I'm a frontend-focused developer currently learning
+full-stack development.
+
+I enjoy building responsive and visually engaging
+interfaces while improving my understanding of
+JavaScript, backend concepts and modern user experience.
+</p>
+
+<p>
+My goal is to create digital experiences that balance
+functionality, clarity and interaction.
+</p>
+
+</div>
+
+</section>
+
+<!-- SEPARATOR -->
+
+<div class="gradient-separator separator-two fade"></div>
+
+<!-- SERVICES -->
+
+<section class="services fade" id="services">
+
+<div class="section-heading">
+
+<p>Services</p>
+
+<h2>
+What I Currently Offer
+</h2>
+
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<i class="fa-solid fa-laptop-code"></i>
+
+<h3>Responsive Websites</h3>
+
+<p>
+Clean websites optimized for desktop,
+tablet and mobile devices.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<i class="fa-solid fa-layer-group"></i>
+
+<h3>Landing Pages</h3>
+
+<p>
+Modern landing page designs focused
+on structure and presentation.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<i class="fa-solid fa-mobile-screen-button"></i>
+
+<h3>Mobile Friendly Layouts</h3>
+
+<p>
+Interfaces designed to remain smooth
+and readable across screen sizes.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<i class="fa-solid fa-wand-magic-sparkles"></i>
+
+<h3>Interactive UI</h3>
+
+<p>
+Frontend interactions and subtle
+animations for engaging experiences.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SEPARATOR -->
+
+<div class="gradient-separator separator-three fade"></div>
+
+<!-- FEATURED PROJECTS -->
+
+<section class="featured-projects fade" id="featured-work">
+
+<div class="section-heading">
+
+<p>Selected Work</p>
+
+<h2>
+Projects & Experiments
+</h2>
+
+</div>
+
+<div class="featured-grid">
+
+<div class="featured-card">
+
+<img src="./chatgptscreenshot.png">
+
+<h3>ChatGPT Clone</h3>
+
+<p>
+Focused on recreating a modern interface
+layout with responsiveness and visual consistency.
+</p>
+
+</div>
+
+<div class="featured-card">
+
+<img src="./AI_Beauty_Web_img.png">
+
+<h3>OYINX Beauty Intelligence</h3>
+
+<p>
+A frontend beauty recommendation concept
+with future AI-powered ideas and interactive UI.
+</p>
+
+</div>
+
+</div>
+
+<div class="projects-button-wrap">
+
+<a href="projects.html" class="primary-btn">
+View All Projects
+</a>
+
+</div>
+
+</section>
+
+<!-- SEPARATOR -->
+
+<div class="gradient-separator separator-four fade"></div>
+
+<!-- SKILLS -->
+
+<section class="skills fade">
+
+<div class="section-heading">
+
+<p>Skills</p>
+
+<h2>
+Current Stack & Learning Path
+</h2>
+
+</div>
+
+<div class="skills-wrapper">
+
+<div class="skills-box">
+
+<h3>Current Stack</h3>
+
+<div class="skill-tags">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Responsive Design</span>
+<span>Flexbox</span>
+<span>CSS Grid</span>
+<span>Git</span>
+
+</div>
+
+</div>
+
+<div class="skills-box">
+
+<h3>Currently Exploring</h3>
+
+<div class="skill-tags">
+
+<span>Node.js</span>
+<span>Backend Concepts</span>
+<span>APIs</span>
+<span>Databases</span>
+<span>Full-Stack Workflows</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SEPARATOR -->
+
+<div class="gradient-separator separator-five fade"></div>
+
+<!-- LEARNING -->
+
+<section class="learning fade">
+
+<div class="section-heading">
+
+<p>Learning</p>
+
+<h2>
+Currently Growing In
+</h2>
+
+</div>
+
+<div class="learning-grid">
+
+<div class="learn-card">
+
+<h3>JavaScript Logic</h3>
+
+<p>
+Improving interaction handling and
+frontend functionality.
+</p>
+
+</div>
+
+<div class="learn-card">
+
+<h3>Backend Foundations</h3>
+
+<p>
+Exploring APIs, servers and
+full-stack workflows.
+</p>
+
+</div>
+
+<div class="learn-card">
+
+<h3>UI/UX Thinking</h3>
+
+<p>
+Learning how to make interfaces feel
+more intuitive and smooth.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SEPARATOR -->
+
+<div class="gradient-separator separator-six fade"></div>
+
+<!-- FOOTER -->
+
+<footer class="footer fade" id="footer">
+
+  <div class="footer-top">
+    <h2>Let's Build Something</h2>
+    <p>Open to collaborations, projects and creative ideas.</p>
+    <button class="btn" onclick="location.href='mailto:oyinolaosebikan11@gmail.com?subject=Contact from my website'">Contact Me</button>
   </div>
+
+<div class="footer-socials">
+
+<a href="https://wa.me/2348140310839">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<a href="https://www.tiktok.com/@o.y.i.n.1234?_r=1&_t=ZS-95DHIdV9Cs9">
+<i class="fab fa-tiktok"></i>
+</a>
+
+<a href="https://www.facebook.com/profile.php?id=100095424665998">
+<i class="fab fa-facebook"></i>
+</a>
+
+</div>
+
+<p class="location">
+📍 Nigeria
+</p>
+
 </footer>
 
-<script>
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
-hamburger.onclick = () => navLinks.classList.toggle('active');
+<script src="script.js">
 
-const glow = document.querySelector('.cursor-glow');
-document.addEventListener('mousemove', e=>{
-  glow.style.left = e.clientX + 'px';
-  glow.style.top = e.clientY + 'px';
-});
+// const hamburger = document.querySelector('.hamburger');
+// const navLinks = document.querySelector('.nav-links');
 
-const observer = new IntersectionObserver(entries=>{
-  entries.forEach(entry=>{
-    if(entry.isIntersecting) entry.target.classList.add('show');
-  });
-},{threshold:0.2});
-document.querySelectorAll('.fade').forEach(el=>observer.observe(el));
+// hamburger.onclick = () => {
+// navLinks.classList.toggle('active');
+// };
 
-const footer = document.querySelector('#footer');
-const footerObserver = new IntersectionObserver(entries=>{
-  entries.forEach(entry=>{
-    if(entry.isIntersecting){
-      footer.classList.add('show-footer');
-    } else {
-      footer.classList.remove('show-footer');
-    }
-  });
-});
-footerObserver.observe(footer);
+// const glow = document.querySelector('.cursor-glow');
 
-const scrollIndicator = document.querySelector('.scroll-indicator');
-window.addEventListener('scroll', () => {
-  scrollIndicator.style.opacity = window.scrollY > 100 ? '0' : '1';
-});
+// document.addEventListener('mousemove', e => {
+
+// glow.style.left = e.clientX + 'px';
+// glow.style.top = e.clientY + 'px';
+
+// });
+
+// const observer = new IntersectionObserver(entries => {
+
+// entries.forEach(entry => {
+
+// if(entry.isIntersecting){
+// entry.target.classList.add('show');
+// }
+
+// });
+
+// },{threshold:0.15});
+
+// document.querySelectorAll('.fade').forEach(el => {
+// observer.observe(el);
+// });
+
+// const navbar = document.querySelector('.navbar');
+
+// window.addEventListener('scroll', () => {
+
+// if(window.scrollY > 50){
+// navbar.classList.add('scrolled');
+// }else{
+// navbar.classList.remove('scrolled');
+// }
+
+// });
+
 </script>
 
 </body>
